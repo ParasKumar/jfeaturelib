@@ -114,6 +114,7 @@ public class Harris implements PointDetector {
     @Override
     public void run(ImageProcessor ip) {
         pcs.firePropertyChange(Progress.getName(), null, Progress.START);
+        System.out.println("testing");
 
         ByteProcessor bp = (ByteProcessor) ip.convertToByte(true);
         int width = bp.getWidth();
