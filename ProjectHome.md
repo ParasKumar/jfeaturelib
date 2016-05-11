@@ -35,6 +35,7 @@ The main ressources to start working with JFeatureLib are:
     1. Clone the repo from GitHub: `git clone https://github.com/locked-fg/LIRE.git`
     1. Install the lib into your local repo: `mvn -Prelease install -DskipTests=true -Dgpg.skip=true`
     1. now build JFeatureLib
+    1. now Do as your choice
 
 
 ## How to get support ##
